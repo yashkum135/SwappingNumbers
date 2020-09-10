@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    //declaring the variables
+    int a , b,temp;
+    
+    //getting the variable from the users
+    printf("enter the first number to swap ");
+    scanf("%d",&a);
+    
+    printf("enter the second number to swap ");
+    scanf("%d",&b);
+    
+    //printing the numbers before swapping 
+    printf("numbers before swapping are %d and %d\n",a,b);
+    
+    //swapping proccess or code
+    temp = a;
+    a = b;
+    b = temp;
+    
+    //printing the numbers after the swapping proccess
+    printf("numbers after swapping are %d and %d\n",a,b);
+
+    return 0;
+}
+
